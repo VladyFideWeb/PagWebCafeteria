@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es"><!--Para que idetifiquen mi sitio en español-->
+ <head>
+    <title>Café Laffonte</title>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet"><!--Google Fonts-->
+	<link rel="stylesheet" href="css/estilos.css"><!--Relacionar archivo css-->
+	<meta charset="UTF-8"><!--Para que el navegador detecte los acentos y demás caracteres-->
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"><!--Responsive Design-->
+	<script src="js/jquery.min.js"></script><!--Relacionando Jquery-->		
+	<script src="js/efectos.js"></script><!--Relacionando JS-->
+	<script src="js/parallax.js"></script><!--Relacionando Efecto Prallax-->
+ </head>
+ <body>
+	<header>
+		<div class="contenedor"><!--Div que se usa para centrar contenido del Header-->
+			<nav class="menu">
+				<a href="#" id="btn-acerca-de">Acerca de</a>
+				<a href="#" id="btn-menu">Menú</a>
+				<a href="#" id="btn-galeria">Galeria</a>
+				<a href="#" id="btn-ubicacion">Ubicación</a>
+			</nav>
+			<div class="textos">
+				<h1 class="nombre">Café <span>Laffonte</span></h1>
+				<h3>El mejor Café de todos</h3>
+			</div>
+		</div>
+	</header>
+	
+	<section class="main">
+		<section class="acerca-de" id="acerca-de">
+			<div class="contenedor"><!--Div que se usa para centrar contenido-->
+				<div class="foto">
+					<img src="img/acerca-de.jpg" alt="">
+				</div>
+				<article>
+					<h3>Acerca de</h3>
+					<p>Esta es una cafetria que se encuentra en el cetro de la ciudad</p>
+					<p>Te Ofrecemos el mejor café de la región con excelente servicio y atención al cliente
+					, Visitanos y date cuenta por ti mismo de esto. No te prives de la experiencia tan maravillosa de
+					beber el mejor café de la región.</p>
+				</article>
+			</div>
+		</section>
+		
+		<section class="menu">
+			<div class="contenedor"><!--Div que se usa para centrar contenido-->
+				<h3 class="titulo" id="platillos">Menú</h3>
+				<div class="contenedor-menu"><!--Doble-->
+					<div class="contenedor-menu2"><!--Borde-->
+						<article>
+							<p class="categoria">De Comer</p>
+							<div class="platillo">
+								<p class="nombre">Ensalada Cordova</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Ensalada de Col con almendras de la India</p>
+							</div>
+							
+							<div class="platillo">
+								<p class="nombre">Café con Pan Panesito</p>
+								<p class="precio">$5</p>
+								<p class="descripcion">Café a tu gusto con una cesta de pan regional</p>
+							</div>
+							
+							<div class="platillo">
+								<p class="nombre">Desayuno Continental</p>
+								<p class="precio">$20</p>
+								<p class="descripcion">Hot Cakes ilimitados,huevo y Café ilimitado</p>
+							</div>
+							
+							<div class="platillo">
+								<p class="nombre">Cena Continental</p>
+								<p class="precio">$20</p>
+								<p class="descripcion">Pollo y Café ilimitado</p>
+							</div>
+						</article>
+						<article>
+							<p class="categoria">De Tomar</p>
+							<div class="platillo">
+								<p class="nombre">Café Chico</p>
+								<p class="precio">$5</p>
+								<p class="descripcion">Café-100ml</p>
+							</div>	
+							
+							<div class="platillo">
+								<p class="nombre">Café Mediano</p>
+								<p class="precio">$7</p>
+								<p class="descripcion">Café-200ml</p>
+							</div>
+							
+							<div class="platillo">
+								<p class="nombre">Café Grande</p>
+								<p class="precio">$10</p>
+								<p class="descripcion">Café-400ml</p>
+							</div>
+							
+							<div class="platillo">
+								<p class="nombre">Café Ilimitado</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Puedes beber la cantidad de Café que quieras</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+		<section class="galeria" id="galeria"><!--No olvidar bajarle el peso a mis imagenes de mi web-->
+			<div class="foto">
+				<img src="img/1.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/2.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/3.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/4.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/5.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/6.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/7.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/8.jpg" alt="">
+			</div>
+		</section>
+		
+		<section class="ubicacion" id="ubicacion">
+			<div class="contenedor"><!--Div que se usa para centrar contenido-->
+				<h3 class="titulo">Ubicación</h3>
+				<div class="direccion">
+					<p class="calle">2915 Primera Llano<br/>Marcial, Val 930042</p><br/>
+					<p class="telefono">(502) 400-5683</p>
+					<p class="correo">ita_becerra@hotmail.com</p>
+				</div>
+				<div class="horarios">
+					<h4>Horarios</h4>
+					<p class="entre-semana">Lunes a Viernes<br>8:00am - 9:00pm</p>
+					<p class="fin-semana">Sábados y Domingos<br>11:00am - 11:00pm</p>
+				</div>
+			</div>
+		</section>
+		<section class="mapa">
+			<!--iframe del mapa de google maps-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0637309263157!2d-46.71329968538392!3d-23.566154467653664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56528d071d85%3A0x1417eb923efbe982!2sAv.%20Afr%C3%A2nio%20Peixoto%2C%20180%20-%20Butant%C3%A3%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005507-000%2C%20Brazil!5e0!3m2!1sen!2smx!4v1591608173587!5m2!1sen!2smx" width="1600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</section>
+	</section>
+	
+	<footer>
+		<div class="contenedor"><!--Div que se usa para centrar contenido-->
+			<div class="copyright">
+				<p>Copyright Laffonte-2020</p>
+			</div>
+		</div>
+	</footer>
+ </body>
+</html>
